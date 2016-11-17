@@ -4,7 +4,7 @@
 
 # molpay-mobile-xdk-nativescript
 
-This is the beta but functional MOLPay NativeScript payment module that is ready to be implemented into any NativeScript project npm install module. An example application project (MOLPayXDKExample) is provided for MOLPayXDK framework integration reference.
+This is the functional MOLPay NativeScript payment module that is ready to be implemented into any NativeScript project npm install module. An example application project (MOLPayXDKExample) is provided for MOLPayXDK framework integration reference.
 
 ## Recommended configurations
 
@@ -175,10 +175,6 @@ molpay.startMolpay(molpayView ,paymentDetails , function(data){
 ## Private Secret Key checksum validation formula
 
     chksum = MD5(mp_merchant_ID + results.msgType + results.txn_ID + results.amount + results.status_code + merchant_private_secret_key)
-
-##Tip
-
-1) Refer MOLPayReactExampleProject if have any issue.
 
 ## Support
 
