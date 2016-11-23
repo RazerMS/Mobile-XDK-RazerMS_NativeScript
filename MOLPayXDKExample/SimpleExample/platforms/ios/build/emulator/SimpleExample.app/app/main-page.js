@@ -1,5 +1,5 @@
 "use strict";
-var MOLPay = require('molpay-mobile-xdk-nativescript');
+var molpay = require('molpay-mobile-xdk-nativescript');
 var molpayPaymentDetails = {
     mp_amount: "1.10",
     mp_username: "",
@@ -28,7 +28,7 @@ function navigatingTo(args) {
     // Get the event sender
     var page = args.object;
     var molpayView = page.getViewById("molpay");
-    MOLPay.startMolpay(molpayView, molpayPaymentDetails, function (data) {
+    molpay.startMolpay(molpayView, molpayPaymentDetails, function (data) {
         // data = JSON.parse(data);
         alert(data);
     });
@@ -36,7 +36,7 @@ function navigatingTo(args) {
 }
 exports.navigatingTo = navigatingTo;
 function Close() {
-    MOLPay.closeMolpay();
+    molpay.closeMolpay();
 }
 exports.Close = Close;
 //# sourceMappingURL=main-page.js.map

@@ -1,7 +1,7 @@
 import { EventData } from 'data/observable';
 import { Page } from 'ui/page';
 import { HelloWorldModel } from './main-view-model';
-import * as MOLPay from 'molpay-mobile-xdk-nativescript';
+import * as molpay from 'molpay-mobile-xdk-nativescript';
 let molpayPaymentDetails = {
     mp_amount: "1.10",
     mp_username: "",
@@ -31,7 +31,7 @@ export function navigatingTo(args: EventData) {
   // Get the event sender
   let page = <Page>args.object;
   let molpayView = page.getViewById("molpay");
-  MOLPay.startMolpay(molpayView, molpayPaymentDetails, function(data) {
+  molpay.startMolpay(molpayView, molpayPaymentDetails, function(data) {
        // data = JSON.parse(data);
        alert(data);
     });
@@ -40,5 +40,5 @@ export function navigatingTo(args: EventData) {
 }
 
 export function Close(){
-	MOLPay.closeMolpay();
+	molpay.closeMolpay();
 }
