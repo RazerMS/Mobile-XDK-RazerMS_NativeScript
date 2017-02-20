@@ -134,6 +134,7 @@ var paymentDetails = {
     
     // Optional, enable this for extended phone format validation based on Google i18n standards.
     "mp_advanced_phone_validation_enabled" : false,
+    
     // Optional, explicitly force disable billing name edit.
     "mp_bill_name_edit_disabled": false,
 
