@@ -145,7 +145,13 @@ var paymentDetails = {
     "mp_bill_mobile_edit_disabled": false,
 
     // Optional, explicitly force disable billing description edit.
-    "mp_bill_description_edit_disabled": false
+    "mp_bill_description_edit_disabled": false,
+
+    // Optional, EN, MS, VI, TH, FIL, MY, KM, ID, ZH.
+    "mp_mp_language": "EN",
+
+    // Optional, enable for online sandbox testing.
+    "mp_dev_mode": false
 };
 ```
 
