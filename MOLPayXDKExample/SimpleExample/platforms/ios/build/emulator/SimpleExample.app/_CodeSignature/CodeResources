@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		OhiQZ2b1R1+47fIRpD1zVVihNNA=
+		vuMD/7Ir6qQ97ibyNw94JcFchh0=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Dvy0DK/2RBvZz/RLzaL0usCAMw8=
+		WLvqnIWvHX6qX1tVc1UumQgt9B4=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		nJG6f7XGpk3SOCT+IEeXD4/pTvE=
+		6oQ9a7Mlk5K3Mv1Ks/x6rPU0noE=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		AG8PcMu2rTylIquSe7GGFh6X1QQ=
+		opRd3QMVZX/vtF7kHbVsuYFADeM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -290,23 +290,23 @@
 		</data>
 		<key>app/molpay-mobile-xdk-www/index.html</key>
 		<data>
-		qrf6F5BZLwP00EIU7cdX9YfWe3Q=
+		GOzyC6Sx4NVG1fnUy1+JL5Y3ZB8=
 		</data>
 		<key>app/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
 		<data>
 		vOlg4Wiecpq4Nn9D1cfV3mTp1a4=
 		</data>
-		<key>app/molpay-mobile-xdk-www/scripts/scripts.e4c7562a.js</key>
+		<key>app/molpay-mobile-xdk-www/scripts/scripts.7f48ad2d.js</key>
 		<data>
-		1+PvKCYhlaxXTX5azfk0q7yhDXg=
+		/MB7KyFzjBaERtEMp1L3YnOrgrw=
 		</data>
-		<key>app/molpay-mobile-xdk-www/scripts/vendor.8ef18f5b.js</key>
+		<key>app/molpay-mobile-xdk-www/scripts/vendor.f57621ed.js</key>
 		<data>
-		D5hws000Pwv476RRohhK/UlJb0Q=
+		XfxZUPqmCHwx5eU8Nx/zvwDxbCE=
 		</data>
-		<key>app/molpay-mobile-xdk-www/styles/main.d7e0b867.css</key>
+		<key>app/molpay-mobile-xdk-www/styles/main.88dcea2c.css</key>
 		<data>
-		lbzpKlwTwAnF2zFbCbVgcF00/xk=
+		kFeJtxIwhDZUosUHcQNrouELv7A=
 		</data>
 		<key>app/molpay-mobile-xdk-www/styles/vendor.34eb91d2.css</key>
 		<data>
@@ -4464,11 +4464,15 @@
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/index.html</key>
 		<data>
-		qrf6F5BZLwP00EIU7cdX9YfWe3Q=
+		GOzyC6Sx4NVG1fnUy1+JL5Y3ZB8=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
 		<data>
 		vOlg4Wiecpq4Nn9D1cfV3mTp1a4=
+		</data>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.7f48ad2d.js</key>
+		<data>
+		/MB7KyFzjBaERtEMp1L3YnOrgrw=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.e4c7562a.js</key>
 		<data>
@@ -4477,6 +4481,14 @@
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/vendor.8ef18f5b.js</key>
 		<data>
 		D5hws000Pwv476RRohhK/UlJb0Q=
+		</data>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/vendor.f57621ed.js</key>
+		<data>
+		XfxZUPqmCHwx5eU8Nx/zvwDxbCE=
+		</data>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/styles/main.88dcea2c.css</key>
+		<data>
+		kFeJtxIwhDZUosUHcQNrouELv7A=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/styles/main.d7e0b867.css</key>
 		<data>
@@ -4492,11 +4504,11 @@
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay.js</key>
 		<data>
-		LWRnYJjh5eotfcVTXl0yI0tyzyM=
+		AXaYTU2/OT61hEVkim1TbWQP0Zs=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/package.json</key>
 		<data>
-		Migex421DAY73Nb4CYripDHiPOE=
+		RJwIZ3/Bv1rYO/GtT/ViHXD084k=
 		</data>
 		<key>app/tns_modules/nativescript-permissions/LICENSE</key>
 		<data>
@@ -5502,11 +5514,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OhiQZ2b1R1+47fIRpD1zVVihNNA=
+			vuMD/7Ir6qQ97ibyNw94JcFchh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cRj1+HWvGhpnySwZ3VIK+QjS5yl7496Xh7toF6VUVh0=
+			H0pbCVCkGjo/rJfuD5QGqCNiuVveqKHv1Y27i0kAe/g=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -5788,11 +5800,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nJG6f7XGpk3SOCT+IEeXD4/pTvE=
+			6oQ9a7Mlk5K3Mv1Ks/x6rPU0noE=
 			</data>
 			<key>hash2</key>
 			<data>
-			JBV2Q3SrF0yFAjls1gioQmpSe8eMj70gU/nAHOOZGjY=
+			NQo4b25FM58ObkaUCQ0K83X2gF0hJ6hlYUvDpcA1ZBY=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -5810,11 +5822,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AG8PcMu2rTylIquSe7GGFh6X1QQ=
+			opRd3QMVZX/vtF7kHbVsuYFADeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vaFNozoE2U87v3qCHvj7No8GKMr7Yp51DXjf/fEgyV0=
+			HCT/I1/LVI+mP3ekkx0Re2CcbMaguVQdAcGEQoRmlOs=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -6041,11 +6053,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qrf6F5BZLwP00EIU7cdX9YfWe3Q=
+			GOzyC6Sx4NVG1fnUy1+JL5Y3ZB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LUkhkiqN+rXHU187PaRn6TTKW0+vHWfQ7iV0aVPZaDA=
+			NQPFsKKr1ZNymAtBog7H7o66hDh5QZbHmBGC9bI5jqs=
 			</data>
 		</dict>
 		<key>app/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
@@ -6059,37 +6071,37 @@
 			wKlJHc460whTbli9vY44yje7v+m3ImHQqRlYQ3lNV2k=
 			</data>
 		</dict>
-		<key>app/molpay-mobile-xdk-www/scripts/scripts.e4c7562a.js</key>
+		<key>app/molpay-mobile-xdk-www/scripts/scripts.7f48ad2d.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1+PvKCYhlaxXTX5azfk0q7yhDXg=
+			/MB7KyFzjBaERtEMp1L3YnOrgrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			KNSDfnuoSTkFEk3qc78MAQ0mNd2iRCsOVm5EL9+FMLk=
+			mdlj8Ttbcu5psYStTmFwxmAvhWc5yYtw8D4oUStnmk0=
 			</data>
 		</dict>
-		<key>app/molpay-mobile-xdk-www/scripts/vendor.8ef18f5b.js</key>
+		<key>app/molpay-mobile-xdk-www/scripts/vendor.f57621ed.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D5hws000Pwv476RRohhK/UlJb0Q=
+			XfxZUPqmCHwx5eU8Nx/zvwDxbCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			14xECEf5ih95CUC+d0CQpE5fZta6k/uz53F1+G9cUC8=
+			2ji2hwSt2kN2KnswZbavSACsj2ftQdnMKlJ0lrOFWu0=
 			</data>
 		</dict>
-		<key>app/molpay-mobile-xdk-www/styles/main.d7e0b867.css</key>
+		<key>app/molpay-mobile-xdk-www/styles/main.88dcea2c.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lbzpKlwTwAnF2zFbCbVgcF00/xk=
+			kFeJtxIwhDZUosUHcQNrouELv7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			NJkvYBei2B1gskr9L+0kfpHwNchFi3xikir/zunCH6k=
+			G408rPvZW38VL472ZwE8lO4jkDvVoSfvNt9A+kEAsqo=
 			</data>
 		</dict>
 		<key>app/molpay-mobile-xdk-www/styles/vendor.34eb91d2.css</key>
@@ -17496,11 +17508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qrf6F5BZLwP00EIU7cdX9YfWe3Q=
+			GOzyC6Sx4NVG1fnUy1+JL5Y3ZB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LUkhkiqN+rXHU187PaRn6TTKW0+vHWfQ7iV0aVPZaDA=
+			NQPFsKKr1ZNymAtBog7H7o66hDh5QZbHmBGC9bI5jqs=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
@@ -17512,6 +17524,17 @@
 			<key>hash2</key>
 			<data>
 			wKlJHc460whTbli9vY44yje7v+m3ImHQqRlYQ3lNV2k=
+			</data>
+		</dict>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.7f48ad2d.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/MB7KyFzjBaERtEMp1L3YnOrgrw=
+			</data>
+			<key>hash2</key>
+			<data>
+			mdlj8Ttbcu5psYStTmFwxmAvhWc5yYtw8D4oUStnmk0=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.e4c7562a.js</key>
@@ -17534,6 +17557,28 @@
 			<key>hash2</key>
 			<data>
 			14xECEf5ih95CUC+d0CQpE5fZta6k/uz53F1+G9cUC8=
+			</data>
+		</dict>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/vendor.f57621ed.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XfxZUPqmCHwx5eU8Nx/zvwDxbCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			2ji2hwSt2kN2KnswZbavSACsj2ftQdnMKlJ0lrOFWu0=
+			</data>
+		</dict>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/styles/main.88dcea2c.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kFeJtxIwhDZUosUHcQNrouELv7A=
+			</data>
+			<key>hash2</key>
+			<data>
+			G408rPvZW38VL472ZwE8lO4jkDvVoSfvNt9A+kEAsqo=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/styles/main.d7e0b867.css</key>
@@ -17573,22 +17618,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LWRnYJjh5eotfcVTXl0yI0tyzyM=
+			AXaYTU2/OT61hEVkim1TbWQP0Zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			nvztL6NMtN56NPig/iQRA29Dti/vcbGlMNSjaCz9whg=
+			0LHErvLxfni4PkGczJM50nKUEQqhzXO6viiGYgvd9vw=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Migex421DAY73Nb4CYripDHiPOE=
+			RJwIZ3/Bv1rYO/GtT/ViHXD084k=
 			</data>
 			<key>hash2</key>
 			<data>
-			waypSpi8PSNUVqX97BNmYRq3BulT/05WvwH/fCyqoDs=
+			iDioxR7gasOVbSXFk6OO+XtIAIA6mnVgYKrtGJEZ5QA=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-permissions/LICENSE</key>

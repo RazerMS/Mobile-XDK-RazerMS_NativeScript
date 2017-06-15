@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		dfsSYKdbjLkbPgjo+lECzsibNzk=
+		ZCH14/KNVviFyTa/Wv9lz6K8BIs=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		t0j9gTZj3+tOKXLFxqUdC7ISEMg=
+		bS8TdEDANHkciHC+caA7gGqbo7o=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		aBKKcUHckG/Gi0FHegcff5XESPA=
+		crLFl447746QtkgjV5bc6+g83ow=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -274,15 +274,15 @@
 		</data>
 		<key>app/molpay-mobile-xdk-www/index.html</key>
 		<data>
-		MmK2rPnwKwl7NLXGfKR+wzXM0CE=
+		h0QxrVm3ooESDMBVKr7z0MTh81s=
 		</data>
 		<key>app/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
 		<data>
 		vOlg4Wiecpq4Nn9D1cfV3mTp1a4=
 		</data>
-		<key>app/molpay-mobile-xdk-www/scripts/scripts.69e44cc3.js</key>
+		<key>app/molpay-mobile-xdk-www/scripts/scripts.ac492bad.js</key>
 		<data>
-		hc0qoQ189wng0bHRP15Bw0y3wp0=
+		ov5LtKExaNNyexZOAR1eDSAmMF0=
 		</data>
 		<key>app/molpay-mobile-xdk-www/scripts/vendor.f57621ed.js</key>
 		<data>
@@ -594,7 +594,7 @@
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/README.md</key>
 		<data>
-		IgevA5CtlrGM1PTbAIakmV4L4fM=
+		9hqlCHMFWVgIPKvQeCSmswiZOLw=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/fonts/FontAwesome.otf</key>
 		<data>
@@ -630,7 +630,7 @@
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/index.html</key>
 		<data>
-		MmK2rPnwKwl7NLXGfKR+wzXM0CE=
+		h0QxrVm3ooESDMBVKr7z0MTh81s=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
 		<data>
@@ -639,6 +639,10 @@
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.69e44cc3.js</key>
 		<data>
 		hc0qoQ189wng0bHRP15Bw0y3wp0=
+		</data>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.ac492bad.js</key>
+		<data>
+		ov5LtKExaNNyexZOAR1eDSAmMF0=
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.e4c7562a.js</key>
 		<data>
@@ -674,7 +678,7 @@
 		</data>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/package.json</key>
 		<data>
-		4H9d39AaiVj+7CycF8u9SmGtel4=
+		RJwIZ3/Bv1rYO/GtT/ViHXD084k=
 		</data>
 		<key>app/tns_modules/nativescript-permissions/LICENSE</key>
 		<data>
@@ -1680,11 +1684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dfsSYKdbjLkbPgjo+lECzsibNzk=
+			ZCH14/KNVviFyTa/Wv9lz6K8BIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			TTm0J+XRixdAbB+1vBZE9/APkIe17tjKhR6CJ7qfWMY=
+			3J7fkppmqdQJ0+tJqNMIi+dkPXbyvbhoT+UNVQLN0+o=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -1966,11 +1970,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t0j9gTZj3+tOKXLFxqUdC7ISEMg=
+			bS8TdEDANHkciHC+caA7gGqbo7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			7T/nZz/CZWLPhFYaJsLhAd7C1ValftwM7UUpMO+YEJs=
+			tW28k8FXxvqLkhxIiNn/uDz/oot+cajzvIcVt/OGBlc=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -1988,11 +1992,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aBKKcUHckG/Gi0FHegcff5XESPA=
+			crLFl447746QtkgjV5bc6+g83ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			9jL1XHl0sZaMjN80RlcgLSzuwYlS7z6z2X4tQ9RrfqE=
+			+PnIWLLCoxygyc/RhKuzlI0XHwhkh07X48fdwqyvzy0=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -2175,11 +2179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MmK2rPnwKwl7NLXGfKR+wzXM0CE=
+			h0QxrVm3ooESDMBVKr7z0MTh81s=
 			</data>
 			<key>hash2</key>
 			<data>
-			/XwMNEIecQNCHNAUc1l/FDdhcUYzTUL9OwhRuAlSRsI=
+			Pt8Tl/etNiXV33+bcREatfCqAbfftQS4gmNlkNSSVwM=
 			</data>
 		</dict>
 		<key>app/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
@@ -2193,15 +2197,15 @@
 			wKlJHc460whTbli9vY44yje7v+m3ImHQqRlYQ3lNV2k=
 			</data>
 		</dict>
-		<key>app/molpay-mobile-xdk-www/scripts/scripts.69e44cc3.js</key>
+		<key>app/molpay-mobile-xdk-www/scripts/scripts.ac492bad.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hc0qoQ189wng0bHRP15Bw0y3wp0=
+			ov5LtKExaNNyexZOAR1eDSAmMF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+iOJH2Jo1QCsRh8SsW3VLjHcf/FleojO3fcR8jX0JmI=
+			h3/T8rwDPGEIHFz9YH9LTXi28jN3K38B1wPHGBuhSQs=
 			</data>
 		</dict>
 		<key>app/molpay-mobile-xdk-www/scripts/vendor.f57621ed.js</key>
@@ -3055,11 +3059,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IgevA5CtlrGM1PTbAIakmV4L4fM=
+			9hqlCHMFWVgIPKvQeCSmswiZOLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			nL4Tv1G9rGTnpIF7T72FKwQugLblSWI6a3Lll/ctF2A=
+			4+UPPpayEYdV9a74cAFt1jybzVN6jWK7zWdADzhqKew=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/fonts/FontAwesome.otf</key>
@@ -3154,11 +3158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MmK2rPnwKwl7NLXGfKR+wzXM0CE=
+			h0QxrVm3ooESDMBVKr7z0MTh81s=
 			</data>
 			<key>hash2</key>
 			<data>
-			/XwMNEIecQNCHNAUc1l/FDdhcUYzTUL9OwhRuAlSRsI=
+			Pt8Tl/etNiXV33+bcREatfCqAbfftQS4gmNlkNSSVwM=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/nativescript-webview-interface.js</key>
@@ -3181,6 +3185,17 @@
 			<key>hash2</key>
 			<data>
 			+iOJH2Jo1QCsRh8SsW3VLjHcf/FleojO3fcR8jX0JmI=
+			</data>
+		</dict>
+		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.ac492bad.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ov5LtKExaNNyexZOAR1eDSAmMF0=
+			</data>
+			<key>hash2</key>
+			<data>
+			h3/T8rwDPGEIHFz9YH9LTXi28jN3K38B1wPHGBuhSQs=
 			</data>
 		</dict>
 		<key>app/tns_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www/scripts/scripts.e4c7562a.js</key>
@@ -3275,11 +3290,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4H9d39AaiVj+7CycF8u9SmGtel4=
+			RJwIZ3/Bv1rYO/GtT/ViHXD084k=
 			</data>
 			<key>hash2</key>
 			<data>
-			f7WV+REQcx3kjBPQV66UgS4dukrtt3MaJj8Wmzf1qwI=
+			iDioxR7gasOVbSXFk6OO+XtIAIA6mnVgYKrtGJEZ5QA=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-permissions/LICENSE</key>
