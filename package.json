@@ -1,10 +1,13 @@
 {
   "name": "molpay-mobile-xdk-nativescript",
-  "version": "3.13.1",
+  "version": "3.14.0",
   "main": "molpay.js",
   "typings": "molpay.d.ts",
   "description": "Molpay XDK NativeScript",
   "nativescript": {
+    "tns-ios": {
+      "version": "3.2.0"
+    }
   },
   "dependencies": {
     "base-64": "^0.1.0",
