@@ -1,9 +1,10 @@
-var frame_1 = require("ui/frame");
+Object.defineProperty(exports, "__esModule", { value: true });
+var frame_1 = require("./frame");
 var FragmentClass = (function (_super) {
     __extends(FragmentClass, _super);
     function FragmentClass() {
-        _super.call(this);
-        return global.__native(this);
+        var _this = _super.call(this) || this;
+        return global.__native(_this);
     }
     FragmentClass.prototype.onHiddenChanged = function (hidden) {
         this._callbacks.onHiddenChanged(this, hidden, _super.prototype.onHiddenChanged);

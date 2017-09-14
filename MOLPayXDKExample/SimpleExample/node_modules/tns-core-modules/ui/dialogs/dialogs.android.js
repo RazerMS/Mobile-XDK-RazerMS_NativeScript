@@ -1,11 +1,17 @@
-var dialogsCommon = require("./dialogs-common");
-var appmodule = require("application");
-var types = require("utils/types");
-global.moduleMerge(dialogsCommon, exports);
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+var dialogs_common_1 = require("./dialogs-common");
+var application_1 = require("../../application");
+__export(require("./dialogs-common"));
+function isString(value) {
+    return typeof value === "string";
+}
 function createAlertDialog(options) {
-    var alert = new android.app.AlertDialog.Builder(appmodule.android.foregroundActivity);
-    alert.setTitle(options && types.isString(options.title) ? options.title : "");
-    alert.setMessage(options && types.isString(options.message) ? options.message : "");
+    var alert = new android.app.AlertDialog.Builder(application_1.android.foregroundActivity);
+    alert.setTitle(options && isString(options.title) ? options.title : "");
+    alert.setMessage(options && isString(options.message) ? options.message : "");
     if (options && options.cancelable === false) {
         alert.setCancelable(false);
     }
@@ -13,7 +19,7 @@ function createAlertDialog(options) {
 }
 function showDialog(builder) {
     var dlg = builder.show();
-    var labelColor = dialogsCommon.getLabelColor();
+    var labelColor = dialogs_common_1.getLabelColor();
     if (labelColor) {
         var textViewId = dlg.getContext().getResources().getIdentifier("android:id/alertTitle", null, null);
         if (textViewId) {
@@ -30,7 +36,8 @@ function showDialog(builder) {
             }
         }
     }
-    var buttonColor = dialogsCommon.getButtonColor();
+    var buttonColor = dialogs_common_1.getButtonColor();
+    var buttonBackgroundColor = dialogs_common_1.getButtonBackgroundColor();
     if (buttonColor) {
         var buttons = [];
         for (var i = 0; i < 3; i++) {
@@ -39,7 +46,12 @@ function showDialog(builder) {
         }
         buttons.forEach(function (button) {
             if (button) {
-                button.setTextColor(buttonColor.android);
+                if (buttonColor) {
+                    button.setTextColor(buttonColor.android);
+                }
+                if (buttonBackgroundColor) {
+                    button.setBackgroundColor(buttonBackgroundColor.android);
+                }
             }
         });
     }
@@ -81,7 +93,7 @@ function addButtonsToAlertDialog(alert, options, callback) {
 function alert(arg) {
     return new Promise(function (resolve, reject) {
         try {
-            var options = !dialogsCommon.isDialogOptions(arg) ? { title: dialogsCommon.ALERT, okButtonText: dialogsCommon.OK, message: arg + "" } : arg;
+            var options = !dialogs_common_1.isDialogOptions(arg) ? { title: dialogs_common_1.ALERT, okButtonText: dialogs_common_1.OK, message: arg + "" } : arg;
             var alert_1 = createAlertDialog(options);
             alert_1.setPositiveButton(options.okButtonText, new android.content.DialogInterface.OnClickListener({
                 onClick: function (dialog, id) {
@@ -105,7 +117,7 @@ exports.alert = alert;
 function confirm(arg) {
     return new Promise(function (resolve, reject) {
         try {
-            var options = !dialogsCommon.isDialogOptions(arg) ? { title: dialogsCommon.CONFIRM, okButtonText: dialogsCommon.OK, cancelButtonText: dialogsCommon.CANCEL, message: arg + "" } : arg;
+            var options = !dialogs_common_1.isDialogOptions(arg) ? { title: dialogs_common_1.CONFIRM, okButtonText: dialogs_common_1.OK, cancelButtonText: dialogs_common_1.CANCEL, message: arg + "" } : arg;
             var alert_2 = createAlertDialog(options);
             addButtonsToAlertDialog(alert_2, options, function (result) { resolve(result); });
             showDialog(alert_2);
@@ -119,13 +131,13 @@ exports.confirm = confirm;
 function prompt(arg) {
     var options;
     var defaultOptions = {
-        title: dialogsCommon.PROMPT,
-        okButtonText: dialogsCommon.OK,
-        cancelButtonText: dialogsCommon.CANCEL,
-        inputType: dialogsCommon.inputType.text,
+        title: dialogs_common_1.PROMPT,
+        okButtonText: dialogs_common_1.OK,
+        cancelButtonText: dialogs_common_1.CANCEL,
+        inputType: dialogs_common_1.inputType.text,
     };
     if (arguments.length === 1) {
-        if (types.isString(arg)) {
+        if (isString(arg)) {
             options = defaultOptions;
             options.message = arg;
         }
@@ -134,7 +146,7 @@ function prompt(arg) {
         }
     }
     else if (arguments.length === 2) {
-        if (types.isString(arguments[0]) && types.isString(arguments[1])) {
+        if (isString(arguments[0]) && isString(arguments[1])) {
             options = defaultOptions;
             options.message = arguments[0];
             options.defaultText = arguments[1];
@@ -143,9 +155,14 @@ function prompt(arg) {
     return new Promise(function (resolve, reject) {
         try {
             var alert_3 = createAlertDialog(options);
-            var input_1 = new android.widget.EditText(appmodule.android.foregroundActivity);
-            if (options && options.inputType === dialogsCommon.inputType.password) {
-                input_1.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD);
+            var input_1 = new android.widget.EditText(application_1.android.foregroundActivity);
+            if (options) {
+                if (options.inputType === dialogs_common_1.inputType.password) {
+                    input_1.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                }
+                else if (options.inputType === dialogs_common_1.inputType.email) {
+                    input_1.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+                }
             }
             input_1.setText(options && options.defaultText || "");
             alert_3.setView(input_1);
@@ -161,9 +178,9 @@ function prompt(arg) {
 exports.prompt = prompt;
 function login(arg) {
     var options;
-    var defaultOptions = { title: dialogsCommon.LOGIN, okButtonText: dialogsCommon.OK, cancelButtonText: dialogsCommon.CANCEL };
+    var defaultOptions = { title: dialogs_common_1.LOGIN, okButtonText: dialogs_common_1.OK, cancelButtonText: dialogs_common_1.CANCEL };
     if (arguments.length === 1) {
-        if (types.isString(arguments[0])) {
+        if (isString(arguments[0])) {
             options = defaultOptions;
             options.message = arguments[0];
         }
@@ -172,14 +189,14 @@ function login(arg) {
         }
     }
     else if (arguments.length === 2) {
-        if (types.isString(arguments[0]) && types.isString(arguments[1])) {
+        if (isString(arguments[0]) && isString(arguments[1])) {
             options = defaultOptions;
             options.message = arguments[0];
             options.userName = arguments[1];
         }
     }
     else if (arguments.length === 3) {
-        if (types.isString(arguments[0]) && types.isString(arguments[1]) && types.isString(arguments[2])) {
+        if (isString(arguments[0]) && isString(arguments[1]) && isString(arguments[2])) {
             options = defaultOptions;
             options.message = arguments[0];
             options.userName = arguments[1];
@@ -188,14 +205,14 @@ function login(arg) {
     }
     return new Promise(function (resolve, reject) {
         try {
-            var context_1 = appmodule.android.foregroundActivity;
+            var context = application_1.android.foregroundActivity;
             var alert_4 = createAlertDialog(options);
-            var userNameInput_1 = new android.widget.EditText(context_1);
+            var userNameInput_1 = new android.widget.EditText(context);
             userNameInput_1.setText(options.userName ? options.userName : "");
-            var passwordInput_1 = new android.widget.EditText(context_1);
+            var passwordInput_1 = new android.widget.EditText(context);
             passwordInput_1.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD);
             passwordInput_1.setText(options.password ? options.password : "");
-            var layout = new android.widget.LinearLayout(context_1);
+            var layout = new android.widget.LinearLayout(context);
             layout.setOrientation(1);
             layout.addView(userNameInput_1);
             layout.addView(passwordInput_1);
@@ -217,9 +234,9 @@ function login(arg) {
 exports.login = login;
 function action(arg) {
     var options;
-    var defaultOptions = { title: null, cancelButtonText: dialogsCommon.CANCEL };
+    var defaultOptions = { title: null, cancelButtonText: dialogs_common_1.CANCEL };
     if (arguments.length === 1) {
-        if (types.isString(arguments[0])) {
+        if (isString(arguments[0])) {
             options = defaultOptions;
             options.message = arguments[0];
         }
@@ -228,14 +245,14 @@ function action(arg) {
         }
     }
     else if (arguments.length === 2) {
-        if (types.isString(arguments[0]) && types.isString(arguments[1])) {
+        if (isString(arguments[0]) && isString(arguments[1])) {
             options = defaultOptions;
             options.message = arguments[0];
             options.cancelButtonText = arguments[1];
         }
     }
     else if (arguments.length === 3) {
-        if (types.isString(arguments[0]) && types.isString(arguments[1]) && types.isDefined(arguments[2])) {
+        if (isString(arguments[0]) && isString(arguments[1]) && typeof arguments[2] !== "undefined") {
             options = defaultOptions;
             options.message = arguments[0];
             options.cancelButtonText = arguments[1];
@@ -244,10 +261,10 @@ function action(arg) {
     }
     return new Promise(function (resolve, reject) {
         try {
-            var activity = appmodule.android.foregroundActivity || appmodule.android.startActivity;
+            var activity = application_1.android.foregroundActivity || application_1.android.startActivity;
             var alert_5 = new android.app.AlertDialog.Builder(activity);
-            var message = options && types.isString(options.message) ? options.message : "";
-            var title = options && types.isString(options.title) ? options.title : "";
+            var message = options && isString(options.message) ? options.message : "";
+            var title = options && isString(options.title) ? options.title : "";
             if (options && options.cancelable === false) {
                 alert_5.setCancelable(false);
             }
@@ -267,7 +284,7 @@ function action(arg) {
                     }
                 }));
             }
-            if (types.isString(options.cancelButtonText)) {
+            if (isString(options.cancelButtonText)) {
                 alert_5.setNegativeButton(options.cancelButtonText, new android.content.DialogInterface.OnClickListener({
                     onClick: function (dialog, id) {
                         dialog.cancel();
@@ -277,7 +294,7 @@ function action(arg) {
             }
             alert_5.setOnDismissListener(new android.content.DialogInterface.OnDismissListener({
                 onDismiss: function () {
-                    if (types.isString(options.cancelButtonText)) {
+                    if (isString(options.cancelButtonText)) {
                         resolve(options.cancelButtonText);
                     }
                     else {

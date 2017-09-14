@@ -169,15 +169,21 @@ import * as molpay from 'molpay-mobile-xdk-nativescript';
 //import molpay package
 var molpay = require("molpay-mobile-xdk-nativescript");
 
-//set the view
-var molpayView = page.getViewById("molpayExampleView");
+exports.pageLoaded = function(args) {
+    var page = args.object;
+    
+    //set the view
+    var molpayView = page.getViewById("molpayExampleView");
 
-//start molpay payment pass the view and the payment Details
-molpay.startMolpay(molpayView ,paymentDetails , function(data){
-    //callback after payment success
-    console.log(data);
-    alert(data);
-});
+    //start molpay payment pass the view and the payment Details
+    molpay.startMolpay(molpayView ,paymentDetails , function(data){
+        //callback after payment success
+        console.log(data);
+        alert(data);
+    });
+};
+
+
 ```
 
 ## Cash channel payment process (How does it work?)

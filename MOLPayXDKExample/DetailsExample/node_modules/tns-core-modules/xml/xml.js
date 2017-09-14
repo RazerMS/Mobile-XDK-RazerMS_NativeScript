@@ -1,5 +1,5 @@
-"use strict";
-var easysax = require("js-libs/easysax");
+Object.defineProperty(exports, "__esModule", { value: true });
+var easysax = require("../js-libs/easysax");
 var ParserEventType = (function () {
     function ParserEventType() {
     }

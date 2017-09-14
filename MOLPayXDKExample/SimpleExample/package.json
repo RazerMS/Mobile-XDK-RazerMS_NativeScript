@@ -4,13 +4,23 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "org.nativescript.SimpleExample",
+    "id": "org.nativescript.HelloWorld",
     "tns-ios": {
-      "version": "2.3.0"
+      "version": "3.2.0"
+    },
+    "tns-android": {
+      "version": "3.2.0"
     }
   },
   "dependencies": {
-    "molpay-mobile-xdk-nativescript": "file:../molpay-mobile-xdk-nativescript/molpay-mobile-xdk-nativescript",
-    "tns-core-modules": "2.4.0"
+    "molpay-mobile-xdk-nativescript": "^1.13.1",
+    "nativescript-theme-core": "~1.0.2",
+    "tns-core-modules": "~3.2.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "lazy": "1.0.11"
   }
 }

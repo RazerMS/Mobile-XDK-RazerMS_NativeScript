@@ -1,11 +1,18 @@
-var frame_1 = require("ui/frame");
+Object.defineProperty(exports, "__esModule", { value: true });
+var frame_1 = require("./frame");
+var globals = require("../../globals");
+var appModule = require("../../application");
+if (global.__snapshot || global.__snapshotEnabled) {
+    globals.install();
+}
 var NativeScriptActivity = (function (_super) {
     __extends(NativeScriptActivity, _super);
     function NativeScriptActivity() {
-        _super.call(this);
-        return global.__native(this);
+        var _this = _super.call(this) || this;
+        return global.__native(_this);
     }
     NativeScriptActivity.prototype.onCreate = function (savedInstanceState) {
+        appModule.android.init(this.getApplication());
         this.isNativeScriptActivity = true;
         if (!this._callbacks) {
             frame_1.setActivityCallbacks(this);

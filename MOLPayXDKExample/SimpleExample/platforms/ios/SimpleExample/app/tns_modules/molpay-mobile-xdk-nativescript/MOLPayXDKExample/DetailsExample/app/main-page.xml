@@ -1,9 +1,0 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onPageLoaded" unloaded="pageUnloaded">
-  
-  <ActionBar title="" style="background-color:white;">
-  <ActionItem id="cancelButton" tap="closeMolpay" ios.position="right" text="Cancel" visibility="{{cancelButton}}"/>
-  <ActionItem id="closeButton" tap="closePInst" ios.position="right" text="Close" visibility="{{closeButton}}"/>
-  <NavigationButton visibility="collapsed"/>
-</ActionBar>
-    <GridLayout id="molpay"></GridLayout>
-</Page>
