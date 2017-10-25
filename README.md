@@ -10,19 +10,15 @@ This is the functional MOLPay NativeScript payment module that is ready to be im
 
 - Node.js Version: 5.3.0 ++
 
-- Minimum Android SDK Version: 23 ++
+- Minimum Android SDK Version: 25 ++
 
-- Minimum Android API level: 16 ++
+- Minimum Android API level: 19 ++
 
-- Minimum Android target version: Android 4.1
+- Minimum Android target version: Android 4.4
 
 - Xcode version: 7 ++
 
 - Minimum target version: iOS 7
-
-## MOLPay Android Caveats
-
-Credit card payment channel is not available in Android 4.1, 4.2, and 4.3. due to lack of latest security (TLS 1.2) support on these Android platforms natively.
 
 ## Installation
 
