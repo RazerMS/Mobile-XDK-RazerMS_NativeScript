@@ -13,7 +13,7 @@
     }
   },
   "dependencies": {
-    "molpay-mobile-xdk-nativescript": "^1.13.1",
+    "molpay-mobile-xdk-nativescript": "^3.18.1",
     "nativescript-theme-core": "~1.0.2",
     "tns-core-modules": "~3.2.0"
   },
