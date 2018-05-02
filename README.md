@@ -25,12 +25,7 @@ This is the functional MOLPay NativeScript payment module that is ready to be im
 ## Installation
 
 ```
-1) tns plugin add molpay-mobile-xdk-nativescript
-
-2) Copy node_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www to app folder
-
-Example using terminal 
-cp -R node_modules/molpay-mobile-xdk-nativescript/molpay-mobile-xdk-www app
+tns plugin add molpay-mobile-xdk-nativescript
 ```
 
 ## Sample Result
