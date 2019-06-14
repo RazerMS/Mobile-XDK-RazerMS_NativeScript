@@ -1,6 +1,6 @@
 {
   "name": "molpay-mobile-xdk-nativescript",
-  "version": "3.24.0",
+  "version": "3.25.0",
   "main": "molpay.js",
   "typings": "molpay.d.ts",
   "description": "Razer Merchant Services XDK NativeScript",
