@@ -1,6 +1,6 @@
 var createViewModel = require("./main-view-model").createViewModel;
-var frameModule = require("ui/frame");
-var application = require('application');
+var frameModule = require("tns-core-modules/ui/frame");
+var application = require('tns-core-modules/application');
 
 
 var molpay = require("molpay-mobile-xdk-nativescript");

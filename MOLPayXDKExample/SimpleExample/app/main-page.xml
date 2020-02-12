@@ -1,8 +1,10 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <Page.actionBar>
+      <ActionBar title="Simple Example">
+        <Button text="Close" tap="Close"></Button>
+      </ActionBar>
+  </Page.actionBar>
   <StackLayout>
-    <Label text="Tap the button" class="title"/>
-    <Button text="TAP" tap="Close" />
-    <Label text="{{ message }}" class="message" textWrap="true"/>
   <GridLayout id="molpay"></GridLayout>
   </StackLayout>
 </Page>
