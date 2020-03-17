@@ -2,9 +2,10 @@
  # license: Copyright © 2011-2016 MOLPay Sdn Bhd. All Rights Reserved. 
  -->
 
-<img src="https://user-images.githubusercontent.com/38641542/39353138-654385dc-4a39-11e8-9710-19e5f03ec62e.jpg">
-
 # rms-mobile-xdk-nativescript
+
+<img src="https://user-images.githubusercontent.com/38641542/74424311-a9d64000-4e8c-11ea-8d80-d811cfe66972.jpg">
+
 
 This is the functional Razer Merchant Services NativeScript payment module that is ready to be implemented into any NativeScript project npm install module. An example application project (MOLPayXDKExample) is provided for Razer Merchant Services XDK framework integration reference.
 
@@ -57,7 +58,7 @@ Parameter and meaning:
 
 Parameter and meaning:
 
-"Communication Error" - Error starting a payment process due to several possible reasons, please contact MOLPay support should the error persists.
+"Communication Error" - Error starting a payment process due to several possible reasons, please contact Razer Merchant Services support should the error persists.
 1) Internet not available
 2) API credentials (username, password, merchant id, verify key)
 3) Razer Merchant Services server offline.
@@ -84,7 +85,7 @@ var paymentDetails = {
     'mp_country' : 'MY',  
     
     // Optional String.
-    'mp_channel' : '', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+    'mp_channel' : '', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/rms-mobile-xdk-examples/blob/master/channel_list.tsv.
     'mp_bill_description' : '',
     'mp_bill_name' : '',
     'mp_bill_email' : '',
@@ -93,7 +94,7 @@ var paymentDetails = {
     'mp_editing_enabled' : false, // Option to allow billing information editing.
     
     // Optional, but required payment values. User input will be required when values not passed.
-    'mp_channel' : 'multi', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+    'mp_channel' : 'multi', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/rms-mobile-xdk-examples/blob/master/channel_list.tsv.
     'mp_bill_description' : 'billdesc',
     'mp_bill_name' : 'billname',
     'mp_bill_email' : 'email@domain.com',
@@ -120,7 +121,7 @@ var paymentDetails = {
     // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
     'mp_request_type': '',
 
-    // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/custom.css.
+    // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/rms-mobile-xdk-examples/blob/master/custom.css.
     'mp_custom_css_url': '',
 
     // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
