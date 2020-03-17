@@ -1,5 +1,8 @@
 /.*\.DS_Store$
 .DS_Store
 npm-debug.log
+.vscode
 MOLPayXDKExample/DetailsExample/platforms
 MOLPayXDKExample/SimpleExample/platforms
+MOLPayXDKExample/DetailsExample/node_modules
+MOLPayXDKExample/SimpleExample/node_modules
