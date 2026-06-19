@@ -1,7 +1,0 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded"
-	navigatedTo="onNavigatedTo" actionBarHidden="true">
-<StackLayout>
-    <Button text="Start" tap="tapAction" />
-    <Label text="{{ExampleData}}" textWrap="true"/>
-  </StackLayout>
-</Page>
